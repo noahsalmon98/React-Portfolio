@@ -53,7 +53,16 @@ const AppHome = () => {
           ))}
         </div>
       </section>
+      <section className="contact">
+        <h2>Contact Me</h2>
+        <p>
+          Feel free to reach out to me at <a href="noahsalmon98@gmail.com">noahsalmon98@gmail.com</a>.
+        </p>
+      </section>
 
+      <footer>
+        <p>&copy; {new Date().getFullYear()} Noah Salmon. All Rights Reserved.</p>
+      </footer>
 
     </div>
   );
