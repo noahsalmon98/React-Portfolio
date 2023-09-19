@@ -25,7 +25,22 @@ const AppHome = () => {
   ];
 
   return (
- <div>Hello</div>
-  )}
+    <div className="portfolio">
+      <header>
+        <h1>Noah Salmon</h1>
+        <p>Developer</p>
+      </header>
+
+      <section className="about">
+        <h2>About Me</h2>
+        <p>
+          Sample Text
+        </p>
+      </section>
+
+    </div>
+  );
+};
+
 
 export default AppHome;
